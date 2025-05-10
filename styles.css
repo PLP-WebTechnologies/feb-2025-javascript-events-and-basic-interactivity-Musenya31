@@ -8,6 +8,7 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    margin: 10px;
 }
 
 input {
@@ -16,3 +17,7 @@ input {
     width: 250px;
 }
 
+#textDisplay, #hoverText, #emailFeedback, #passwordFeedback {
+    font-weight: bold;
+    color: darkred;
+}
